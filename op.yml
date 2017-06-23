@@ -5,7 +5,7 @@ inputs:
     dir:
       description: directory containing the projects source code
 outputs:
-  profile:
+  coverprofile:
     file:
       description: the aggregate golang coverprofile
 version: 1.0.0
@@ -16,6 +16,6 @@ run:
       /src: src
     files:
       /cmd.sh:
-      /profile: profile
+      /coverprofile: coverprofile
     image: { ref: 'alpine:3.6' }
     workDir: /
