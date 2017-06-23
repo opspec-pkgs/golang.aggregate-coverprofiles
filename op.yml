@@ -1,0 +1,20 @@
+name: github.com/opspec-pkgs/golang.aggregate-coverprofiles
+description: aggregates coverprofiles from a multi-package golang project
+inputs:
+  src:
+    dir:
+      description: directory containing the projects source code
+outputs:
+  profile:
+    file:
+      description: the aggregate golang coverprofile
+version: 1.0.0
+run:
+  container:
+    cmd: [ /cmd.sh ]
+    dirs:
+      /src: src
+    files:
+      /cmd.sh:
+      /profile: profile
+    image: { ref: 'alpine:3.6' }
