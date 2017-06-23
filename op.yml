@@ -18,3 +18,4 @@ run:
       /cmd.sh:
       /profile: profile
     image: { ref: 'alpine:3.6' }
+    workDir: /
