@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 set -e
 echo "generating aggregate coverage profile"
-find . -name '*.coverprofile' | xargs cat > /coverage
+find . -name '*.coverprofile' | xargs cat > /profile
 
 echo "stripping generated code"
-sed '/fake/d' -i /coverage
-sed '/bindata/d' -i /coverage
+sed '/fake/d' -i /profile
+sed '/bindata/d' -i /profile
