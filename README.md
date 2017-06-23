@@ -25,5 +25,5 @@ op:
   inputs: 
     src:
   outputs:
-    profile:
+    coverprofile:
 ```
