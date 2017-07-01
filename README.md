@@ -23,7 +23,7 @@ opctl run github.com/opspec-pkgs/golang.aggregate-coverprofiles#VERSION
 op:
   pkg: { ref: github.com/opspec-pkgs/golang.aggregate-coverprofiles#VERSION }
   inputs: 
-    src:
+    srcDir:
   outputs:
     coverprofile:
 ```
