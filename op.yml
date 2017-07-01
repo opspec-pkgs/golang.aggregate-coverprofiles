@@ -1,7 +1,7 @@
 name: github.com/opspec-pkgs/golang.aggregate-coverprofiles
 description: aggregates coverprofiles from a multi-package golang project
 inputs:
-  src:
+  srcDir:
     dir:
       description: directory containing the projects source code
 outputs:
@@ -13,7 +13,7 @@ run:
   container:
     cmd: [ /cmd.sh ]
     dirs:
-      /src: src
+      /src: srcDir
     files:
       /cmd.sh:
       /coverprofile: coverprofile
