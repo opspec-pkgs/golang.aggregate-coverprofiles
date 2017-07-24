@@ -1,9 +1,13 @@
+[![Build Status](https://travis-ci.org/opspec-pkgs/golang.aggregate-coverprofiles.svg?branch=master)](https://travis-ci.org/opspec-pkgs/golang.aggregate-coverprofiles)
+
 # Problem statement
+
 aggregates coverprofiles from a multi-package golang project
 
 # Example usage
 
-> note: in examples, VERSION represents a version of the golang.aggregate-coverprofiles pkg
+> note: in examples, VERSION represents a version of the
+> golang.aggregate-coverprofiles pkg
 
 ## install
 
@@ -30,8 +34,10 @@ op:
 
 # Support
 
-join us on [![Slack](https://opspec-slackin.herokuapp.com/badge.svg)](https://opspec-slackin.herokuapp.com/)
-or [open an issue](https://github.com/opspec-pkgs/golang.aggregate-coverprofiles/issues)
+join us on
+[![Slack](https://opspec-slackin.herokuapp.com/badge.svg)](https://opspec-slackin.herokuapp.com/)
+or
+[open an issue](https://github.com/opspec-pkgs/golang.aggregate-coverprofiles/issues)
 
 # Releases
 
@@ -42,4 +48,5 @@ and [tagged](https://git-scm.com/book/en/v2/Git-Basics-Tagging); see
 
 # Contributing
 
-see [project/CONTRIBUTING.md](https://github.com/opspec-pkgs/project/blob/master/CONTRIBUTING.md)
+see
+[project/CONTRIBUTING.md](https://github.com/opspec-pkgs/project/blob/master/CONTRIBUTING.md)
