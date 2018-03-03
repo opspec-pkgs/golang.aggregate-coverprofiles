@@ -1,32 +1,35 @@
 [![Build Status](https://travis-ci.org/opspec-pkgs/golang.aggregate-coverprofiles.svg?branch=master)](https://travis-ci.org/opspec-pkgs/golang.aggregate-coverprofiles)
 
+<img src="icon.svg" alt="icon" height="100px">
+
 # Problem statement
 
 aggregates coverprofiles from a multi-package golang project
 
+# Format
+
+this version of the pkg is in [![opspec 0.1.5](https://img.shields.io/badge/opspec-0.1.5-brightgreen.svg?colorA=6b6b6b&colorB=fc16be)](https://opspec.io/0.1.5/packages.html) format
+
 # Example usage
 
-> note: in examples, VERSION represents a version of the
-> golang.aggregate-coverprofiles pkg
-
-## install
+## Install
 
 ```shell
-opctl pkg install github.com/opspec-pkgs/golang.aggregate-coverprofiles#VERSION
+opctl pkg install github.com/opspec-pkgs/golang.aggregate-coverprofiles#1.0.0
 ```
 
-## run
+## Run
 
 ```
-opctl run github.com/opspec-pkgs/golang.aggregate-coverprofiles#VERSION
+opctl run github.com/opspec-pkgs/golang.aggregate-coverprofiles#1.0.0
 ```
 
-## compose
+## Compose
 
 ```yaml
 op:
-  pkg: { ref: github.com/opspec-pkgs/golang.aggregate-coverprofiles#VERSION }
-  inputs: 
+  pkg: { ref: github.com/opspec-pkgs/golang.aggregate-coverprofiles#1.0.0 }
+  inputs:
     srcDir:
   outputs:
     coverprofile:
