@@ -8,7 +8,7 @@ outputs:
   coverprofile:
     file:
       description: the aggregate golang coverprofile
-version: 1.0.0
+version: 2.1.0
 run:
   container:
     cmd: [ /cmd.sh ]
